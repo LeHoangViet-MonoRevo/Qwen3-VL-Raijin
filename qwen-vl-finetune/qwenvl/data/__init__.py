@@ -26,12 +26,18 @@ VIDEOCHATGPT = {
     "data_path": "PATH_TO_VIDEOCHATGPT_DATA",
 }
 
+DUMMY = {
+    "annotation_path": "/home/VietLH/Desktop/projects/Qwen3-VL-Raijin/qwen-vl-finetune/dummy_dataset/annotations.json",
+    "data_path": "/home/VietLH/Desktop/projects/Qwen3-VL-Raijin/qwen-vl-finetune/dummy_dataset",
+}
+
 data_dict = {
     "cambrian_737k": CAMBRIAN_737K,
     "cambrian_737k_pack": CAMBRIAN_737K_PACK,
     "mp_doc": MP_DOC,
     "clevr_mc": CLEVR_MC,
     "videochatgpt": VIDEOCHATGPT,
+    "dummy": DUMMY
 }
 
 
